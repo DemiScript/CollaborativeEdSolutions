@@ -1,0 +1,74 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+/* Reset default browser styles */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a base font size and family */
+body {
+  font-size: 16px;
+  font-family: EB Garamond, Arial, sans-serif;
+}
+
+img.logo {
+  height: 57px;
+}
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  overflow: auto;
+}
+
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: #19325F;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: lowercase;
+}
+
+.navbar a:hover {
+  color: #63D2FF;
+}
+
+a.active {
+  color: #63D2FF;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+/* Add some basic styling to the page
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+} */
+
+/* Add more styles as needed */
+/* Add Bootstrap CSS */
+
