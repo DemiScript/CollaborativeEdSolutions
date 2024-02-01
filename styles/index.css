@@ -1,6 +1,7 @@
-@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
 /* Reset default browser styles */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -18,25 +19,23 @@ img.logo {
   width: 100%;
   background-color: #ffffff;
   overflow: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 
 .navbar a {
   float: left;
   padding: 12px;
-  color: #19325F;
+  color: #19325f !important;
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
   text-transform: lowercase;
 }
 
-.navbar a:hover {
-  color: #63D2FF;
-}
-
-a.active {
-  color: #63D2FF;
+.navbar a:hover,
+.navbar a.active,
+.navbar a.active:hover {
+  color: #63d2ff !important;
 }
 
 @media screen and (max-width: 500px) {
@@ -71,4 +70,3 @@ a {
 
 /* Add more styles as needed */
 /* Add Bootstrap CSS */
-
