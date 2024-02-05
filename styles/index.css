@@ -4,19 +4,26 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100%;
 }
 
 /* Set a base font size and family */
 body {
-  height: 100%;
   margin: 0;
   font-size: 16px;
   font-family: EB Garamond, Arial, sans-serif;
   /*63D2FF, 19325F*/
   background-repeat: no-repeat;
-  background: rgb(99,210,255);
-  background: linear-gradient(180deg, rgba(99,210,255,1) 0%, rgba(25,50,95,1) 100%);
+  background: rgb(99, 210, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(99, 210, 255, 1) 0%,
+    rgba(25, 50, 95, 1) 100%
+  );
+}
+
+html {
+  min-height: 100%;
 }
 
 img.logo {
@@ -44,34 +51,34 @@ img.logo {
 .navbar a.active:hover {
   color: #63d2ff !important;
 }
-.carousel-item{
-    height:32rem;
-    background:black;
-    color: white;
-    position: relative;
-    background-position: center;
-    background-size: cover;
+.carousel-item {
+  height: 32rem;
+  background: black;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
 }
 .container {
-    position: absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    padding-bottom: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
 }
 .overlay-image {
-    position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    top:0;
-    background-position: top;
-    background-size: contain;
-    opacity: 0.5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: top;
+  background-size: contain;
+  opacity: 0.5;
 }
 .carousel-container {
-    /* max-width: 1920px; */
-    margin: 0 auto;
+  /* max-width: 1920px; */
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 500px) {
