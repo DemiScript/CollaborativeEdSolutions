@@ -1,5 +1,14 @@
-@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/5.3.2/css/bootstrap.min.css");
 /* Reset default browser styles */
+/*Colors
+#19325F dark blue
+#63D2FF light blue
+#BED8D4 light green
+#BED8D4 slightly darker green #F1FAEE complementary green
+#F7F9F9 off white
+#FFFFFF white
+*/
+
 html,
 body {
   margin: 0;
@@ -26,30 +35,35 @@ html {
   min-height: 100%;
 }
 
+main {
+    padding-bottom: 2.5rem;
+    position: relative;
+}
+
 img.logo {
-  height: 57px;
+    height: 57px;
 }
 .navbar {
-  width: 100%;
-  background-color: #ffffff;
-  overflow: auto;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    background-color: #ffffff;
+    overflow: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar a {
-  float: left;
-  padding: 12px;
-  color: #19325f !important;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 22px;
-  text-transform: lowercase;
+    float: left;
+    padding: 12px;
+    color: #19325f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: lowercase;
 }
 
 .navbar a:hover,
 .navbar a.active,
 .navbar a.active:hover {
-  color: #63d2ff !important;
+    color: #63d2ff !important;
 }
 .carousel-item {
   height: 32rem;
@@ -80,6 +94,35 @@ img.logo {
   /* max-width: 1920px; */
   margin: 0 auto;
 }
+#mission {
+    height:100%;
+    width: 100%;
+    top:3rem;
+}
+
+footer {
+    bottom:0;
+    width:100%;
+    /* height:2.5rem; */
+}
+.img-container{
+    width: 75%;
+}
+
+.button-container > a {
+    margin: 1.5rem;
+    width: 9rem;
+}
+
+.btn-primary {
+    color:white;
+    background-color: #19325F;
+}
+.btn-secondary {
+    color:#19325F;
+    background-color: #FFFFFF;
+}
+
 
 @media screen and (max-width: 500px) {
   .navbar a {
