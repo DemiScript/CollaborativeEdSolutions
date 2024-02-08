@@ -154,6 +154,7 @@ img.logo {
 }
 
 #testimonials-carousel {
+  height: 24rem;
   background: white;
   max-width: 100%;
   margin: auto;
