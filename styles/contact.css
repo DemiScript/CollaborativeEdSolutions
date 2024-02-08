@@ -1,0 +1,34 @@
+/*Colors
+#19325F dark blue
+#63D2FF light blue
+#BED8D4 light green
+#6BA89F slightly darker green #F1FAEE complementary green
+#F7F9F9 off white
+#FFFFFF white
+*/
+html, 
+body {
+    min-height: 100%;
+}
+
+/* Set a base font size and family */
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: EB Garamond, Arial, sans-serif;
+    /*63D2FF, 19325F*/
+    background-repeat: no-repeat;
+    background: rgb(25,50,95);
+    background: linear-gradient(
+        167deg, 
+        rgba(25,50,95,1) 0%, 
+        rgba(107,168,159,1) 100%);
+}
+footer {
+    background-color: #FFFFFF;
+    color: #19325F;
+}
+footer .footer-text{
+    color:#19325F;
+    font-weight: bold;
+}
