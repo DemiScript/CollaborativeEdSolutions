@@ -249,6 +249,10 @@ img.logo {
   margin: 1.25rem;
 }
 
+.col-content > h5 {
+    text-transform: lowercase;
+}
+
 footer {
   bottom: 0;
   width: 100%;
