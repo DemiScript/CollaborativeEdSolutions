@@ -3,41 +3,46 @@ body {
   min-height: 100vh;
 }
 /* Set a base font size and family */
-body.aboutPage h1,
-body.aboutPage p {
+
+body.aboutpage h1,
+body.aboutpage p {
   text-align: left;
   color: #19325f;
   margin-left: 15px;
 }
 
-body.aboutPage h1 {
+body.aboutpage h1 {
   margin-top: 20px;
 }
 
-body.aboutPage p {
-  color: #19325f;
-}
+/* .container-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .container-img svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  } */
 
-.custom-card {
-  border-radius: 75% 49% 57% 84% / 45% 10% 77% 38%;
-  overflow: hidden;
-  background: linear-gradient(28deg, #63d2ff, #78d5d7, #0f2e65);
-}
 .line-divider {
-  width: 35vh;
+  width: 9vh;
   height: 5px;
   background-color: #b6e8e9;
   display: inline-block;
+  margin-left: 7rem;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 body {
   display: flex;
   flex-direction: column; /* Arrange content in a vertical column */
 }
 
-.about-container {
-  flex: 1; /* Allow the main content to grow to fill available space */
-}
 footer {
   bottom: 0;
   width: 100%;
