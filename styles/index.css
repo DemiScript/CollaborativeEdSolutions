@@ -59,7 +59,7 @@ img.logo {
 .navbar a:hover,
 .navbar a.active,
 .navbar a.active:hover {
-  color: #63d2ff;
+  color: #63d2ff !important;
 }
 .carousel-item-1 {
   height: 32rem;
