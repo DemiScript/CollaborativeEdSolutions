@@ -6,31 +6,35 @@
 #F7F9F9 off white
 #FFFFFF white
 */
-html, 
+html,
 body {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 /* Set a base font size and family */
 body {
-    margin: 0;
-    font-size: 16px;
-    font-family: EB Garamond, Arial, sans-serif;
-    /*63D2FF, 19325F*/
-    background-repeat: no-repeat;
-    background: rgb(25,50,95);
-    background: linear-gradient(
-        167deg, 
-        rgba(25,50,95,1) 0%, 
-        rgba(107,168,159,1) 100%);
+  margin: 0;
+  font-size: 16px;
+  font-family: EB Garamond, Arial, sans-serif;
+  /*63D2FF, 19325F*/
+  background-repeat: no-repeat;
+  background: rgb(25, 50, 95);
+  background: linear-gradient(
+    167deg,
+    rgba(25, 50, 95, 1) 0%,
+    rgba(107, 168, 159, 1) 100%
+  );
 }
 footer {
-    bottom: 0;
-    width: 100%;
-    background-color: #ffffff;
-    color: #19325f;
+  bottom: 0;
+  width: 100%;
+  background-color: white !important;
+  color: #19325f !important;
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.025); /* Add a shadow to the footer, don't know how I feel ab it */
 }
-footer .footer-text{
-    color:#19325F;
-    font-weight: bold;
+
+footer .nav-link,
+footer .text-muted a,
+footer .mb-0 {
+  color: #19325f !important; /* Change the color of the navigation links, "developed by" link, and copyright text to blue */
 }
