@@ -19,10 +19,10 @@ body {
     /*63D2FF, 19325F*/
     background-repeat: no-repeat;
     background: rgb(25,50,95);
-    background: linear-gradient(
+    /* background: linear-gradient(
         167deg, 
         rgba(25,50,95,1) 0%, 
-        rgba(107,168,159,1) 100%);
+        rgba(107,168,159,1) 100%); */
 }
 footer {
     bottom: 0;
