@@ -10,7 +10,7 @@ Reset default browser styles
 
 html, 
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Set a base font size and family */
@@ -29,7 +29,7 @@ body {
 }
 
 html {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 main {
@@ -250,7 +250,7 @@ img.logo {
 }
 
 .col-content > h5 {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 footer {
