@@ -19,7 +19,9 @@ body {
   background: white !important;
 }
 /* Styles for the Services Page */
-
+h1 {
+  color: #19325f;
+}
 .services-container {
   text-align: center;
   margin-top: 50px;
