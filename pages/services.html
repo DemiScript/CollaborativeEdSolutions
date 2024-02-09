@@ -2,92 +2,16 @@
 <html lang="en">
   <head>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CollaborativeEd Solutions | Homepage</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../styles/index.css" />
-        <link
-          href="https://fonts.googleapis.com/css?family=EB Garamond"
-          rel="stylesheet"
-        />
-        <title>CollaborativeEd Solutions | Services</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>CollaborativeEd Solutions | Services</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="../styles/index.css" />
+      <link rel="stylesheet" href="../styles/services.css" />
+      <link href="https://fonts.googleapis.com/css?family=EB Garamond" rel="stylesheet">
         <!-- Developers: Demi Matos & Althesia Hylton -->
         <!-- Contact: dm594@njit.edu & ah593@njit.edu -->
-    <style>
-      /* Additional styles for the Services Page */
-
-      .services-container {
-        text-align: center;
-        margin-top: 50px; 
-      }
-
-      .title-text {
-        color: #19325f;
-        font-size: 28px; 
-        margin-bottom: 10px; 
-      }
-
-      .line-divider {
-        width: 60px; 
-        height: 5px;
-        background-color: #b6e8e9;
-        display: inline-block;
-        margin-bottom: 20px; 
-      }
-
-      .services-text {
-        color: #19325f;
-        font-size: 18px; 
-        line-height: 1.5; 
-        max-width: 600px; 
-        margin: 0 auto; 
-      }
-
-      .services-title {
-        color: #19325f;
-        font-size: 24px; 
-        text-align: left;
-        margin-top: 30px; 
-      }
-
-      .vertical-bar {
-        width: 5px;
-        height: 60px;
-        background-color: #b6e8e9;
-        display: inline-block;
-        margin-right: 15px; 
-        vertical-align: top; 
-      }
-
-      .description-text {
-        font-size: 18px; 
-        line-height: 1.5; 
-        max-width: 600px; 
-        display: inline-block;
-      }
-      .service {
-        margin-top: 10px; 
-      }
-      .book-now-button {
-        background: linear-gradient(
-          180deg,
-          #63d2ff 0%,
-          #78d5d7 50%,
-          #0f2e65 100%
-        );
-        border: none;
-        color: white;
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-        border-radius: 5px;
-        margin-top: 20px;
-      }
-    </style>
   </head>
   <body class="servicesPage">
     <header>
@@ -152,7 +76,7 @@
           <!-- Right Column -->
           <div class="col-md-4">
             <!-- Bootstrap Card -->
-            <div class="card">
+            <div class="card service-card">
               <img src="..." class="card-img" alt="No Image Yet" />
             </div>
           </div>
@@ -183,7 +107,7 @@
           <!-- Right Column -->
           <div class="col-md-4">
             <!-- Bootstrap Card -->
-            <div class="card">
+            <div class="card service-card">
               <img src="..." class="card-img" alt="No Image Yet" />
             </div>
           </div>
@@ -213,7 +137,7 @@
           <!-- Right Column -->
           <div class="col-md-4">
             <!-- Bootstrap Card -->
-            <div class="card">
+            <div class="card service-card">
               <img src="..." class="card-img" alt="No Image Yet" />
             </div>
           </div>
@@ -244,7 +168,7 @@
           <!-- Right Column -->
           <div class="col-md-4">
             <!-- Bootstrap Card -->
-            <div class="card">
+            <div class="card service-card">
               <img src="..." class="card-img" alt="No Image Yet" />
             </div>
           </div>
@@ -259,6 +183,115 @@
         </div>
       </div>
     </div>
+    <!--Learn More-->
+    <div class="container-fluid learn-more-container">
+      <h1 class="title-text">More From Us</h1>
+      <div class="line-divider"></div>
+      <p class="services-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat diam ut venenatis tellus.
+      </p>
+      <div class="row">
+        <!-- Left Column -->
+        <div class="col d-flex flex-column justify-content-between">
+          <div>
+            <h2 class="services-title">Customizable Solutions</h2>
+            <div class="vertical-bar"></div>
+            <p class="description-text">
+              We understand that each educational and organizational context is unique. That's why we offer tailor-made solutions designed to meet the specific needs of your institution or organization.
+            </p>
+          </div>
+          <button class="book-now-button">Book Now</button>
+        </div>
+        <!-- Right Column -->
+        <div class="col d-flex flex-column justify-content-between">
+          <div>
+            <h2 class="services-title">Keynote Speaking</h2>
+            <div class="vertical-bar"></div>
+            <p class="description-text">
+              Dr. Breauna Wall, renowned for her inspirational and insightful presentations, is available for keynote speaking engagements.
+            </p>
+          </div>
+          <button class="book-now-button">Book Now</button>
+        </div>
+      </div>
+      
+    </div>
+    <!--Questions/Contact-->
+    <div class="container-fluid questions-container">
+      <svg class="curvy-line" viewBox="0 0 1000 20">
+        <!-- Original line -->
+        <path
+          d="M0,10 Q100,5 200,10 Q300,15 400,10 Q500,5 600,10 Q700,15 800,10 Q900,5 1000,10"
+          stroke="url(#grad)"
+          stroke-width="2"
+          fill="none"
+        />
+        <!-- Gradient definition -->
+        <defs>
+          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: #63d2ff" />
+            <stop offset="50%" style="stop-color: #78d5d7" />
+            <stop offset="100%" style="stop-color: #0f2e65" />
+          </linearGradient>
+        </defs>
+      </svg>
+      <h1 class="call-to-action-text">Questions?</h1>
+      <button class="lets-chat-button">Let's Chat</button>
+      <svg class="curvy-line" viewBox="0 0 1000 20">
+        <!-- Original line -->
+        <path
+          d="M0,10 Q100,5 200,10 Q300,15 400,10 Q500,5 600,10 Q700,15 800,10 Q900,5 1000,10"
+          stroke="url(#grad)"
+          stroke-width="2"
+          fill="none"
+        />
+        <!-- Gradient definition -->
+        <defs>
+          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: #63d2ff" />
+            <stop offset="50%" style="stop-color: #78d5d7" />
+            <stop offset="100%" style="stop-color: #0f2e65" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <footer py-5 my-5>
+      <ul class="nav border-top justify-content-evenly mb-3 mt-5">
+        <li class="footer-logo">
+            <a class="navbar-brand" href="#">
+                <img
+                    class="logo"
+                    src="/images/white-logo.jpg"
+                    alt="Logo"
+                />
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="index.html" class="nav-link px-3 text-light">
+                home
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="/pages/about.html" class="nav-link px-3 text-light">
+                about
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="/pages/services.html" class="nav-link px-3 text-light">
+                services
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="/pages/contact.html" class="nav-link px-3 text-light">
+                contact
+            </a>
+        </li>
+      </ul>
+      <p class="text-center text-light mb-0">© 2024 CollaborativeEd Solutions</p>
+      <p class="text-center text-muted">
+        developed by <a href="#" class="text-decoration-none text-muted">Demi Matos</a>
+      </p>
+    </footer>
   </body>
 </html>
 <link rel="stylesheet" href="/styles/index.css" />
