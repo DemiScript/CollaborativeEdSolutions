@@ -1,0 +1,32 @@
+html,
+body {
+  min-height: 100%;
+}
+/* Set a base font size and family */
+body.aboutPage h1,
+body.aboutPage p {
+  text-align: left;
+  color: #19325f;
+  margin-left: 15px;
+}
+
+body.aboutPage h1 {
+  margin-top: 20px;
+}
+
+body.aboutPage p {
+  color: #19325f;
+}
+
+.custom-card {
+  border-radius: 75% 49% 57% 84% / 45% 10% 77% 38%;
+  overflow: hidden;
+  background: linear-gradient(28deg, #63d2ff, #78d5d7, #0f2e65);
+}
+.line-divider {
+  width: 35vh;
+  height: 5px;
+  background-color: #b6e8e9;
+  display: inline-block;
+  margin-bottom: 20px;
+}
