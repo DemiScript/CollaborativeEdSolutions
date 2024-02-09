@@ -50,6 +50,7 @@ body {
   background-color: #b6e8e9;
   display: inline-block;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .services-text {
@@ -74,6 +75,7 @@ body {
   display: inline-block;
   margin-right: 15px;
   vertical-align: top;
+  border-radius: 5px;
 }
 
 .description-text {
@@ -86,17 +88,25 @@ body {
   margin-top: 10px;
 }
 .book-now-button {
-  background: linear-gradient(180deg, #63d2ff 0%, #78d5d7 50%, #0f2e65 100%);
-  border: none;
+    background: rgb(99,210,255);
+    background: linear-gradient(108deg, rgba(99,210,255,0.542454481792717) 13%, rgba(15,46,101,0.40800070028011204) 100%);
+    border: none;
+    color: #19325F;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+}
+.book-now-button:hover {
+  background: #19325F;
   color: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-top: 20px;
-  max-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  transition: 0.3s;
 }
 .service-card {
   background-color: rgba(96, 151, 205, 0.28);
