@@ -1,9 +1,9 @@
 html,
 body {
-    min-height: 100vh;
-    background: #19325f;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  background: #19325f;
+  display: flex;
+  flex-direction: column;
 }
 
 /* body.aboutpage h1,
@@ -15,7 +15,12 @@ body.aboutpage p {
 body.aboutpage h1 {
   margin-top: 20px;
 }
-
+.navbar {
+  background-color: #19325f;
+}
+.navbar a {
+  color: #ffffff !important;
+}
 
 .line-divider {
   width: 15vh;
@@ -27,15 +32,14 @@ body.aboutpage h1 {
   border-radius: 5px;
 }
 .line-divider-2 {
-    width: 10vh;
-    height: 5px;
-    background-color: #b6e8e9;
-    display: inline-block;
-    margin-left: 50%;
-    margin-bottom: 20px;
-    border-radius: 5px;
-  }
-
+  width: 10vh;
+  height: 5px;
+  background-color: #b6e8e9;
+  display: inline-block;
+  margin-left: 50%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
 
 footer {
   bottom: 0;
