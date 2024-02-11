@@ -88,12 +88,14 @@ img.logo {
   color: white;
   background-color: #19325f;
   border-color: #ffffff;
+  min-width: 10rem;
 }
 
 .btn-secondary {
   color: #19325f;
   background-color: #ffffff;
   border-color: #19325f;
+  min-width: 10rem;
 }
 .btn-tertiary {
   color: #ffffff;
@@ -119,6 +121,7 @@ img.logo {
 .text-btn {
   font-weight: 500;
   letter-spacing: 0.05em;
+  width: 10rem;
 }
 .vertical-bar {
     width: 10px;
