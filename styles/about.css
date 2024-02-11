@@ -8,10 +8,10 @@
 */
 html,
 body {
-    min-height: 100%;
-    background: #19325f;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  background: #19325f;
+  display: flex;
+  flex-direction: column;
 }
 
 .carousel-item-1 {
@@ -48,14 +48,7 @@ body {
     background-position: center;
     background-size: cover;
 }
-.left-col {
-    background-color: #6BA89F;
-    /* #ffffff26 */
-}
 
-.name-title {
-    color: #BED8D4;
-}
 
 .line-divider {
   width: 10vh;
@@ -64,12 +57,16 @@ body {
   display: inline-block;
   border-radius: 5px;
 }
+.line-divider-2 {
+    width: 10vh;
+    height: 5px;
+    background-color: #b6e8e9;
+    display: inline-block;
+    margin-left: 50%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
 
-.conferences-row{
-    background-color: #F7F9F9;
-    
-    
-}
 
 footer {
   bottom: 0;
