@@ -26,7 +26,11 @@ body {
     rgba(25, 50, 95, 1) 100%
   );
 }
-
+html {
+  border-left: 1rem solid white; /* Adjust the thickness as needed */
+  border-right: 1rem solid white;
+  box-sizing: border-box;
+}
 img.logo {
   height: 57px;
 }
