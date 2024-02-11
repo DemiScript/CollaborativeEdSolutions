@@ -41,12 +41,10 @@ body {
 main {
   flex-grow: 1;
 }
-.main-content {
-  /* idk 7-7 */
-}
+
 .contact-img > img {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2rem;
+  width: 2rem;
 }
 .contact-form {
   background-color: rgba(255, 255, 255, 0.8);
@@ -67,9 +65,10 @@ footer .mb-0 {
   color: #19325f !important; /* Change the color of the navigation links, "developed by" link, and copyright text to blue */
 }
 .line-divider {
-  width: 25vh;
+  width: 8vh;
   height: 5px;
   background-color: #b6e8e9;
   display: inline-block;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
