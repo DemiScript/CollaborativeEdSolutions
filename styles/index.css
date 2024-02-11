@@ -63,14 +63,13 @@ img.logo {
 }
 
 .top-image {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  background-position: top;
-  background-size: cover;
-  /* opacity: 0.5; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: top;
+    background-size: cover;
 }
 
 .img-container {
