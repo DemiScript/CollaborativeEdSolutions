@@ -13,42 +13,46 @@ body {
   display: flex;
   flex-direction: column;
 }
+.navbar {
+  background-color: #19325f;
+}
 
+.navbar a {
+  color: white;
+}
 .carousel-item-1 {
-    height: 32rem;
-    background: black;
-    color: white;
-    position: relative;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  height: 32rem;
+  background: black;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-  .container-text {
-    position: relative;
-    background-color: #19325f89;
-    /* opacity: 0.5; */
-
+.container-text {
+  position: relative;
+  background-color: #19325f89;
+  /* opacity: 0.5; */
 }
-  .overlay-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: center;
-    background-size: cover;    
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
 }
 
 .about-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: center;
-    background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
 }
-
 
 .line-divider {
   width: 10vh;
@@ -58,15 +62,14 @@ body {
   border-radius: 5px;
 }
 .line-divider-2 {
-    width: 10vh;
-    height: 5px;
-    background-color: #b6e8e9;
-    display: inline-block;
-    margin-left: 50%;
-    margin-bottom: 20px;
-    border-radius: 5px;
-  }
-
+  width: 10vh;
+  height: 5px;
+  background-color: #b6e8e9;
+  display: inline-block;
+  margin-left: 50%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
 
 footer {
   bottom: 0;
