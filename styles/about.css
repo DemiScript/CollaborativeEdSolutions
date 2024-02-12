@@ -71,6 +71,20 @@ body {
     background: rgb(25,50,95);
     background: linear-gradient(90deg, rgba(25,50,95,0.9219244462025317) 8%, rgba(107,168,159,0.4978738132911392) 51%, rgba(25,50,95,0.9282535601265822) 100%);    
 
+} 
+.card {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(107, 168, 159, 0.145);
+  color: white;
+}
+.card-title{
+  color: white;
+  text-align: center;
+}
+.card-body {
+  color: rgba(255, 255, 255, 0.661);
 }
 
 .img-thumbnail {
