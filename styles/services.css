@@ -8,179 +8,177 @@
 */
 html,
 body {
-    min-height: 100vh;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    margin: 0;
-    font-size: 16px;
-    font-family: EB Garamond, Arial, sans-serif;
-    /*63D2FF, 19325F*/
-    background: white !important;
+  margin: 0;
+  font-size: 16px;
+  font-family: EB Garamond, Arial, sans-serif;
+  /*63D2FF, 19325F*/
+  background: white !important;
 }
 
 h1 {
-    color: #19325f;
+  color: #19325f;
 }
 .services-container {
-    text-align: center;
-    margin-top: 50px;
-    margin-left: auto; 
-    margin-right: auto; 
-    padding-left: 15px; 
-    padding-right: 15px; 
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .learn-more-container {
-    text-align: center;
-    margin-top: 50px;
-    margin-left: auto; 
-    margin-right: auto; 
-    padding-left: 15px; 
-    padding-right: 15px;
-    background-color: #19325F;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #19325f;
 }
 
 .title-text {
-    color: #19325f;
-    margin-bottom: 0.5rem;
-    text-align: center;
+  color: #19325f;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .line-divider {
-    width: 10vh;
-    height: 5px;
-    background-color: #b6e8e9;
-    display: inline-block;
-    margin-bottom: 20px;
-    border-radius: 5px;
+  width: 10vh;
+  height: 5px;
+  background-color: #b6e8e9;
+  display: inline-block;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .services-text {
-    color: #19325f;
-    font-size: 18px;
-    line-height: 1.5;
-    max-width: 600px;
-    margin: 0 auto;
+  color: #19325f;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
 }
-/* 
-.services-title {
-    color: #19325f;
-    font-size: 24px;
-    text-align: left;
-    margin-top: 30px;
-} */
 
 .bar {
-    height: 6rem;
-    width: 1rem;
-    max-width: 0.3rem;
-    background-color: #b6e8e9;
-    display: inline-block;
-    margin-right: 15px;
-    vertical-align: top;
-    border-radius: 5px;
+  height: 6rem;
+  width: 1rem;
+  max-width: 0.3rem;
+  background-color: #b6e8e9;
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: top;
+  border-radius: 5px;
 }
 
 .description-text {
-    font-size: 18px;
-    line-height: 1.5;
-    max-width: 600px;
-    display: inline-block;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 600px;
+  display: inline-block;
 }
 .service {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .book-now-button {
-    background: rgb(99,210,255);
-    background: linear-gradient(108deg, rgba(99,210,255,0.542454481792717) 13%, rgba(15,46,101,0.40800070028011204) 100%);
-    border: none;
-    color: #19325F;
-    font-weight: 600;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 20px;
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
-    width: 8rem;
+  background: rgb(99, 210, 255);
+  background: linear-gradient(
+    108deg,
+    rgba(99, 210, 255, 0.542454481792717) 13%,
+    rgba(15, 46, 101, 0.40800070028011204) 100%
+  );
+  border: none;
+  color: #19325f;
+  font-weight: 600;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+  width: 8rem;
 }
 
 .book-now-button:hover {
-    background: #19325F;
-    color: white;
-    transition: 0.3s;
+  background: #19325f;
+  color: white;
+  transition: 0.3s;
 }
 
 .book-now-button-dark {
-    background: rgb(99,255,218);
-    background: linear-gradient(117deg, rgba(99,255,218,0.5172443977591037) 13%, rgba(255,255,255,0.40800070028011204) 100%);
-    border: none;
-    color: #ffffff;
-    font-weight: 600;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 20px;
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10rem;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+  background: rgb(99, 255, 218);
+  background: linear-gradient(
+    117deg,
+    rgba(99, 255, 218, 0.5172443977591037) 13%,
+    rgba(255, 255, 255, 0.40800070028011204) 100%
+  );
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
 }
 
 .book-now-button-dark:hover {
-    background: white;
-    color: #19325F;
-    transition: 0.5s;
+  background: white;
+  color: #19325f;
+  transition: 0.5s;
 }
 
-footer {
-    bottom: 0;
-    width: 100%;
-    background-color: #ffffff;
-    color: #19325f;
-}
 footer .footer-text {
-    color: #19325f;
-    font-weight: bold;
+  color: #19325f;
+  font-weight: bold;
 }
 .questions-container {
-    align-items: center;
+  align-items: center;
 }
 
 .lets-chat-button {
-    background: #19325f;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 20px;
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
+  background: #19325f;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .lets-chat-button:hover {
-    background: white;
-    color: #19325f;
-    
+  background: white;
+  color: #19325f;
 }
 
 footer {
-    bottom: 0;
-    width: 100%;
-    background-color: white !important;
-    color: #19325f !important;
-    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.025); 
+  bottom: 0;
+  width: 100%;
+  background-color: white !important;
+  color: #19325f !important;
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.025);
+  margin-bottom: -16px !important;
+  padding: 1px;
 }
 
 footer .nav-link,
 footer .text-muted a,
 footer .mb-0 {
-    color: #19325f !important;
+  color: #19325f !important;
 }
