@@ -26,10 +26,8 @@ body {
     rgba(25, 50, 95, 1) 100%
   );
 }
-.white-border {
-  border-left: 1rem solid white; /* Adjust the thickness as needed */
-  border-right: 1rem solid white;
-  box-sizing: border-box;
+.white-bg {
+  background-color: #ffffff;
 }
 
 img.logo {
