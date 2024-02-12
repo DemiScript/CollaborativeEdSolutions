@@ -15,16 +15,14 @@ Reset default browser styles
 
 html,
 body {
-  font-size: 16px;
-  font-family: EB Garamond, Arial, sans-serif;
-  /*63D2FF, 19325F*/
-  background-repeat: no-repeat;
-  background: rgb(99, 210, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(3, 71, 126, 0.884) 0%,
-    rgba(25, 50, 95, 1) 100%
-  );
+    font-size: 16px;
+    font-family: EB Garamond, Arial, sans-serif;
+    /*63D2FF, 19325F*/
+    background-repeat: no-repeat;
+    background: rgb(25,50,95);
+    background: linear-gradient(180deg, 
+    rgba(25,50,95,0.7203256302521008) -3871%, rgba(107,168,159,0.6839110644257703) -1732%, rgba(25,50,95,0.7399334733893557) -136%, rgba(25,50,95,0.7399334733893557) 8%, rgba(3,71,126,0.865983893557423) 50%, 
+    rgba(25,50,95,1) 94%);
 }
 .white-bg {
   background-color: #ffffff;
@@ -128,6 +126,10 @@ img.logo {
   letter-spacing: 0.05em;
   width: 10rem;
 }
+.display-6{
+    color:#ffffff;
+    /* color:#BED8D4; */
+}
 .vertical-bar {
   width: 10px;
   height: 80px;
@@ -151,9 +153,19 @@ img.logo {
   margin: 2.5rem;
 }
 
+.filter-light-green {
+    filter: invert(100%) sepia(6%) saturate(5595%) hue-rotate(97deg) brightness(90%) contrast(91%);
+    /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%); */
+}
+
 .filter-white {
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);
+}
+
+.learn-more {
+    color:#c4e4dfe0;
 }
 
 #testimonials-carousel {
