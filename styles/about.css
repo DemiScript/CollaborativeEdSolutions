@@ -61,31 +61,21 @@ body {
   display: inline-block;
   border-radius: 5px;
 }
-.line-divider-2 {
-  width: 10vh;
-  height: 5px;
-  background-color: #b6e8e9;
-  display: inline-block;
-}
-.education-container {
-    background: rgb(25,50,95);
-    background: linear-gradient(90deg, rgba(25,50,95,0.9219244462025317) 8%, rgba(107,168,159,0.4978738132911392) 51%, rgba(25,50,95,0.9282535601265822) 100%);    
 
-} 
 .card {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  margin-bottom: 20px;
-  background-color: rgba(107, 168, 159, 0.145);
-  color: white;
+    box-shadow: 0px 7px 15px rgba(247, 246, 246, 0.269);
+    border-radius: 10px;
+    border-width: 0px;
 }
-.card-title{
-  color: white;
-  text-align: center;
+
+.card-header{
+    /* vertical-align: middle; */
+    color: white;
+    background-color: #19325F;
 }
 .card-body {
-  color: rgba(255, 255, 255, 0.661);
-}
+    color: #19325F;
+} 
 
 .img-thumbnail {
     width: 15vh;
