@@ -63,13 +63,13 @@ img.logo {
 }
 
 .top-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: top;
-    background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: top;
+  background-size: cover;
 }
 
 .img-container {
@@ -184,6 +184,9 @@ img.logo {
     text-align: center;
     font-size: 0.7rem;
     font-style: italic;
+    margin: auto;
+    overflow-y: auto;
+    max-height: 480px;
   }
 }
 
