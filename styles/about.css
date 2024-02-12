@@ -50,7 +50,7 @@ body {
   left: 0;
   right: 0;
   top: 0;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
 
@@ -68,18 +68,14 @@ body {
   display: inline-block;
 }
 .education-container {
-    background-color: rgba(240, 248, 255, 0.041);
+    background: rgb(25,50,95);
+    background: linear-gradient(90deg, rgba(25,50,95,0.9219244462025317) 8%, rgba(107,168,159,0.4978738132911392) 51%, rgba(25,50,95,0.9282535601265822) 100%);    
+
 }
 
 .img-thumbnail {
     width: 15vh;
     height: auto;
-}
-
-@media (max-width: 575.98px) { /* For extra small screens */
-    .row.row-cols-sm-2 > div[class^="col-"] {
-        padding: 0.5rem;
-    }
 }
 
 footer {
