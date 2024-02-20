@@ -12,6 +12,11 @@ body {
 .navbar a {
     color: white;
 }
+
+.cursor-about {
+    cursor: default;
+}
+
 .carousel-item-1 {
     height: 32rem;
     background: black;

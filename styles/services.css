@@ -10,6 +10,7 @@ body {
     font-size: 16px;
     font-family: EB Garamond, Arial, sans-serif;
     background: white !important;
+    cursor: default;
 }
 
 h1 {

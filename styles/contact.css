@@ -59,8 +59,7 @@ footer .mb-0 {
     border-radius: 5px;
 }
 .cursor-contact {
-    cursor: help;
-    
+    cursor: default;
 }
 
 @media (max-width: 890px) {
