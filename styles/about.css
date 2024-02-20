@@ -1,65 +1,56 @@
-/*Colors
-#19325F dark blue
-#63D2FF light blue
-#BED8D4 light green
-#6BA89F slightly darker green #F1FAEE complementary green
-#F7F9F9 off white
-#FFFFFF white
-*/
 html,
 body {
-  min-height: 100vh;
-  background: #19325f;
-  display: flex;
-  flex-direction: column;
+    min-height: 100vh;
+    background: #19325f;
+    display: flex;
+    flex-direction: column;
 }
 .navbar {
-  background-color: #19325f;
+    background-color: #19325f;
 }
 
 .navbar a {
-  color: white;
+    color: white;
 }
 .carousel-item-1 {
-  height: 32rem;
-  background: black;
-  color: white;
-  position: relative;
-  background-position: top;
-  background-size: contain;
-  background-repeat: no-repeat;
+    height: 32rem;
+    background: black;
+    color: white;
+    position: relative;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .container-text {
-  position: relative;
-  background-color: #19325f89;
-  /* opacity: 0.5; */
+    position: relative;
+    background-color: #19325f89;
 }
 .overlay-image {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  background-position: top;
-  background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: top;
+    background-size: cover;
 }
 
 .about-image {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  background-position: top;
-  background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: top;
+    background-size: cover;
 }
 
 .line-divider {
-  width: 10vh;
-  height: 5px;
-  background-color: #b6e8e9;
-  display: inline-block;
-  border-radius: 5px;
+    width: 10vh;
+    height: 5px;
+    background-color: #b6e8e9;
+    display: inline-block;
+    border-radius: 5px;
 }
 
 .card {
@@ -69,7 +60,6 @@ body {
 }
 
 .card-header{
-    /* vertical-align: middle; */
     color: white;
     background-color: #19325F;
 }
@@ -83,15 +73,15 @@ body {
 }
 
 footer {
-  bottom: 0;
-  width: 100%;
-  background-color: white !important;
-  color: #19325f !important;
-  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.025); /* Add a shadow to the footer, don't know how I feel ab it */
+    bottom: 0;
+    width: 100%;
+    background-color: white !important;
+    color: #19325f !important;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.025); 
 }
 
 footer .nav-link,
 footer .text-muted a,
 footer .mb-0 {
-  color: #19325f !important; /* Change the color of the navigation links, "developed by" link, and copyright text to blue */
+    color: #19325f !important;
 }
