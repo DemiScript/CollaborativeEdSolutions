@@ -1,81 +1,76 @@
-/*Colors
-#19325F dark blue
-#63D2FF light blue
-#BED8D4 light green
-#6BA89F slightly darker green #F1FAEE complementary green
-#F7F9F9 off white
-#FFFFFF white
-*/
 html,
 body {
-  min-height: 100%;
+    min-height: 100%;
 }
 
-/* Set a base font size and family */
+
 body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-size: 16px;
-  font-family: EB Garamond, Arial, sans-serif;
-  /*63D2FF, 19325F*/
-  background-repeat: no-repeat;
-  background: rgb(25, 50, 95);
-  font-size: 16px;
-  font-family: EB Garamond, Arial, sans-serif;
-  /*63D2FF, 19325F*/
-  background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  background: rgb(25, 50, 95);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: EB Garamond, Arial, sans-serif;
+    /*63D2FF, 19325F*/
+    background-repeat: no-repeat;
+    background: rgb(25, 50, 95);
+    font-size: 16px;
+    font-family: EB Garamond, Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background: rgb(25, 50, 95);
 }
 
 main {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 .contact-img > img {
-  height: 2rem;
-  width: 2rem;
+    height: 2rem;
+    width: 2rem;
 }
 .contact-form {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 1rem;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
 .contact-info {
-  margin-top: -11rem; 
+     margin-top: -11rem; 
 }
 footer {
-  bottom: 0;
-  width: 100%;
-  background-color: white !important;
-  color: #19325f !important;
-  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.025); /* Add a shadow to the footer, don't know how I feel ab it */
+    bottom: 0;
+    width: 100%;
+    background-color: white !important;
+    color: #19325f !important;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.025);
 }
 
 footer .nav-link,
 footer .text-muted a,
 footer .mb-0 {
-  color: #19325f !important; /* Change the color of the navigation links, "developed by" link, and copyright text to blue */
+    color: #19325f !important;
 }
 .line-divider {
-  width: 8vh;
-  height: 5px;
-  background-color: #b6e8e9;
-  display: inline-block;
-  margin-bottom: 20px;
-  border-radius: 5px;
+    width: 8vh;
+    height: 5px;
+    background-color: #b6e8e9;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
-/* Media query for smaller screens */
+.cursor-contact {
+    cursor: help;
+    
+}
+
 @media (max-width: 890px) {
-  .contact-info {
-    margin-top: -7rem;
-  }
+    .contact-info {
+        margin-top: -7rem;
+    }
 }
-/* Media query for smaller screens */
+
 @media (max-width: 768px) {
-  .contact-info {
-    margin-top: 0; 
-  }
+    .contact-info {
+        margin-top: 0; 
+    }
 }
