@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #E3AD59;
+    --tertiary-color: #FE58C7;
+    --background-color: #0A1A38;
+    --text-color: #ffffff;
+    --font-family: 'EB Garamond', Arial, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+}
+
+html,
+body {
+    font-size: 16px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    
+}
+
+.color-secondary {
+    color: #E3AD59;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.navbar {
+    width: 100%;
+    background-color: var(--primary-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+.navbar a {
+    color: #19325F;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+
+.navbar-brand img {
+    height: 57px; 
+    width: auto;
+}
+
+.navbar a:hover,
+.navbar a.active,
+.navbar a.active:hover {
+    color: #63d2ff !important;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+/* Button override */
+.btn-primary , .btn-secondary {
+    font-size: 0.7rem;
+    background-color: transparent;
+    border: 3px solid var(--text-color);
+    border-radius: 50px;
+    color: var(--text-color);
+    padding: 0.75rem 2rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-clip: padding-box;
+   
+}
+
+.btn-primary:hover {
+    background-color: var(--tertiary-color);
+    border-color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: var(--tertiary-color);
+    border-color: #ffffff;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: var(--text-color);
+    
+}
+
+.text-footer {
+    color: #19325F;
+    text-align: right;
+    font-weight: bold;
+}
+
+.social-img > img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.filter-white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+}
