@@ -1,7 +1,7 @@
 :root {
     --primary-color: #ffffff;
-    --secondary-color: #E3AD59;
-    --tertiary-color: #FE58C7;
+    --secondary-color: #FE58C7;
+    --tertiary-color: #E3AD59;
     --background-color: #0A1A38;
     --text-color: #ffffff;
     --font-family: 'EB Garamond', Arial, sans-serif;
@@ -62,7 +62,7 @@ body {
 }
 
 /* Button override */
-.btn-primary , .btn-secondary {
+.btn-primary , .btn-secondary, .btn-tertiary {
     font-size: 0.7rem;
     background-color: transparent;
     border: 3px solid var(--text-color);
@@ -76,14 +76,16 @@ body {
     background-clip: padding-box;
    
 }
-
-.btn-primary:hover {
-    background-color: var(--tertiary-color);
-    border-color: #ffffff;
+.btn-secondary {
+    border: 3px solid var(--secondary-color);
 }
 
-.btn-secondary:hover {
-    background-color: var(--tertiary-color);
+.btn-tertiary {
+    border: 3px solid var(--tertiary-color);
+}
+
+.btn-primary:hover, .btn-secondary:hover , .btn-tertiary:hover {
+    background-color: var(--secondary-color);
     border-color: #ffffff;
 }
 
