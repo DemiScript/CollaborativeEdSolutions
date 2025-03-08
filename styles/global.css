@@ -111,3 +111,15 @@ footer {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);
 }
+
+.subheading {
+    color: #adb5bd; /* Bootstrap gray-500 */
+    padding-bottom: 10px; /* Spacing between subheading and description */
+}
+
+.small-caps {
+    text-transform: uppercase;
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+    font-weight: 600; 
+}

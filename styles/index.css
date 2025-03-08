@@ -4,27 +4,27 @@
 }
 
 .book-cover {
-    max-width: 70%; /* Limits size to 70% of its container */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 70%; 
+    height: auto;
 }
 
-@media (min-width: 992px) { /* Large screens (lg breakpoint and up) */
+@media (min-width: 992px) { 
     .book-cover {
-        max-width: 50%; /* Reduces size on wider screens */
+        max-width: 50%;
     }
 }
 
-.subheading {
-    color: #adb5bd; /* Bootstrap gray-500 */
-    padding-bottom: 10px; /* Spacing between subheading and description */
+.img-container {
+    height: 25rem;
+    position: relative;
 }
 
-.small-caps {
-    text-transform: uppercase;
-    font-size: 0.85em;
-    letter-spacing: 0.05em;
-    font-weight: 600; 
+.about-image {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
 }
+
 
 /* 
 
