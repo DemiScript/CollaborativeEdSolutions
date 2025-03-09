@@ -17,6 +17,7 @@
 .img-container {
     height: 25rem;
     position: relative;
+    background-position: center;
 }
 
 .about-image {
@@ -24,7 +25,36 @@
     inset: 0;
     background-size: cover;
 }
+.three-column-section {
+    background: rgba(25, 50, 95, 0.30); /* Darker than the page bg */
+}
 
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1); /* Image grows when hovered */
+}
+
+.collapse {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%; 
+    height: auto;
+}
 
 /* 
 

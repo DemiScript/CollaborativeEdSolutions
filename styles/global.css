@@ -21,7 +21,11 @@ body {
 }
 
 .color-secondary {
-    color: #E3AD59;
+    color: var(--secondary-color);
+}
+
+.color-tertiary {
+    color: var(--tertiary-color);
 }
 
 .text-justify {
@@ -90,7 +94,6 @@ body {
 }
 
 footer {
-    bottom: 0;
     width: 100%;
     background-color: var(--text-color);
     
@@ -110,6 +113,10 @@ footer {
 .filter-white {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);
+}
+
+.filter-pink {
+    filter: invert(21%) sepia(93%) saturate(4441%) hue-rotate(305deg) brightness(103%) contrast(101%);
 }
 
 .subheading {
