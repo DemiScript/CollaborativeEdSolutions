@@ -130,3 +130,12 @@ footer {
     letter-spacing: 0.05em;
     font-weight: 600; 
 }
+
+.line-divider {
+    width: 10vh;
+    height: 5px;
+    background-color: #b6e8e9;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
