@@ -6,19 +6,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: #19325f;
 }
 
-.btn-custom {
-    background-color: #FE58C7; /* Rosa */
-    border-color: #FE58C7; 
-    color: #fff; /* Texto en blanco */
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.btn-custom:hover {
-    background-color: #fff;
-    color: #FE58C7;
-    border-color: #FE58C7;
-}
-
 .book-now-button {
     background: rgb(99, 210, 255);
     background: linear-gradient(
@@ -28,8 +15,6 @@ h1, h2, h3, h4, h5, h6, p {
     );
     border: none;
     color: #19325f;
-    padding: 10px 20px;
-    cursor: pointer;
     border-radius: 5px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.274);
     padding: 0.75rem 2rem;
@@ -44,7 +29,6 @@ h1, h2, h3, h4, h5, h6, p {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 .book-now-button-white {
-    background: rgba(255, 255, 255, 0);
     border: 2px solid #B6E8E9;
     color: #19325f;
     border-radius: 5px;
@@ -61,97 +45,14 @@ h1, h2, h3, h4, h5, h6, p {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.learn-more-container {
-    text-align: center;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #19325f;
-}
-
-
 .services-text {
     line-height: 1.5;
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
-
-.bar {
-    height: 6rem;
-    width: 1rem;
-    max-width: 0.3rem;
-    background-color: #b6e8e9;
-    display: inline-block;
-    margin-right: 15px;
-    vertical-align: top;
-    border-radius: 5px;
-}
-
-.description-text {
-    font-size: 18px;
-    line-height: 1.5;
-    max-width: 600px;
-    display: inline-block;
-}
-
-
-
-
-.book-now-button-dark {
-    background: rgb(99, 255, 218);
-    background: linear-gradient(
-        117deg,
-        rgba(99, 255, 218, 0.5172443977591037) 13%,
-        rgba(255, 255, 255, 0.40800070028011204) 100%
-    );
-    border: none;
-    color: #ffffff;
-    font-weight: 600;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 20px;
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10rem;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
-}
-
-.book-now-button-dark:hover {
-    background: white;
-    color: #19325f;
-    transition: 0.5s;
-}
-
-/* footer .footer-text {
-    color: #19325f;
-    font-weight: bold;
-} */
-.questions-container {
-    align-items: center;
-}
-
-.lets-chat-button {
-    background: #19325f;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 20px;
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.lets-chat-button:hover {
-    background: white;
-    color: #19325f;
+.card-body {
+    color: #19325F;
 }
 
 footer {
@@ -163,3 +64,15 @@ footer .text-muted a,
 footer .mb-0 {
     color: #19325f !important;
 }
+
+/* 
+.bar {
+    height: 6rem;
+    width: 1rem;
+    max-width: 0.3rem;
+    background-color: #b6e8e9;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+    border-radius: 5px;
+} */
