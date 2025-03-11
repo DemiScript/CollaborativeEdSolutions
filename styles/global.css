@@ -1,8 +1,14 @@
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: #FE58C7;
-    --tertiary-color: #E3AD59;
+    --primary-color: #1c3460;
+
+    --secondary-color: #e4d407;
+
+    --tertiary-color: #e852ae;
+
     --background-color: #0A1A38;
+
+    --accent-color: #edb877;
+
     --text-color: #ffffff;
     --font-family: 'EB Garamond', Arial, sans-serif;
 }
@@ -14,7 +20,7 @@
 
 html,
 body {
-    font-size: 16px;
+    font-size: 18px;
     background-color: var(--background-color);
     color: var(--text-color);
     
@@ -26,6 +32,10 @@ body {
 
 .color-tertiary {
     color: var(--tertiary-color);
+}
+
+.color-accent {
+    color: var(--accent-color);
 }
 
 .text-justify {
@@ -52,9 +62,8 @@ body {
     width: auto;
 }
 
-.navbar a:hover,
 .navbar a.active,
-.navbar a.active:hover {
+.nav-item a:hover{
     color: #63d2ff !important;
 }
 
@@ -65,11 +74,10 @@ body {
     }
 }
 
-/* Button override */
-.btn-primary , .btn-secondary, .btn-tertiary {
+.btn-primary , .btn-secondary, .btn-tertiary, .btn-accent {
     font-size: 0.7rem;
     background-color: transparent;
-    border: 3px solid var(--text-color);
+    border: 3px solid var(--primary-color);
     border-radius: 50px;
     color: var(--text-color);
     padding: 0.75rem 2rem;
@@ -80,17 +88,18 @@ body {
     background-clip: padding-box;
    
 }
-.btn-secondary {
-    border: 3px solid var(--secondary-color);
-}
 
-.btn-tertiary {
+.btn-primary:hover, .btn-secondary:hover , .btn-tertiary:hover, .btn-accent:hover {
+    background-color: rgba(241, 237, 237, 0.062);
+    border-color: var(--primary-color);
+}
+.btn-primary:hover {
     border: 3px solid var(--tertiary-color);
 }
 
-.btn-primary:hover, .btn-secondary:hover , .btn-tertiary:hover {
-    background-color: var(--secondary-color);
-    border-color: #ffffff;
+.btn-accent:hover {
+    border: 3px solid var(--accent-color);
+    border-color: #edb877b4;
 }
 
 footer {
@@ -116,19 +125,23 @@ footer {
 }
 
 .filter-pink {
-    filter: invert(21%) sepia(93%) saturate(4441%) hue-rotate(305deg) brightness(103%) contrast(101%);
+    filter: invert(30%) sepia(53%) saturate(645%) hue-rotate(295deg) brightness(101%) contrast(99%);
+}
+
+.filter-yellow {
+    filter: invert(88%) sepia(27%) saturate(2800%) hue-rotate(10deg) brightness(95%) contrast(103%);
 }
 
 .subheading {
-    color: #adb5bd; /* Bootstrap gray-500 */
-    padding-bottom: 10px; /* Spacing between subheading and description */
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 10px;
 }
 
 .small-caps {
     text-transform: uppercase;
-    font-size: 0.85em;
+    font-size: 0.70em;
     letter-spacing: 0.05em;
-    font-weight: 600; 
+    font-weight: 500; 
 }
 
 .line-divider {
