@@ -1,3 +1,5 @@
+@import url(global.css);
+
 .navbar {
     background-color: #ffffff;
 }
@@ -14,7 +16,7 @@
 }
 
 .social-img img:hover {
-    transform: scale(1.2); /* Slightly larger on hover */
+    transform: scale(1.2);
 }
 
 #homepage-headshot{

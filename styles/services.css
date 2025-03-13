@@ -1,3 +1,9 @@
+@import url(global.css);
+
+.navbar {
+    background-color: #ffffff;
+}
+
 body {
     background: white !important;
 } 
@@ -6,7 +12,71 @@ h1, h2, h3, h4, h5, h6, p {
     color: #19325f;
 }
 
-.book-now-button {
+.card-body, .card-header {
+    color: #19325F;
+}
+
+.services-text {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card-header {
+    font-weight: semibold;
+    background-color: #e852ae4f;
+    border: 1px solid #ffffff;
+    /* color: #ffffff; */
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: semibold;
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    position:relative;
+}
+
+.card-text {
+    line-height: 1.25em;
+}
+
+.btn-primary, .btn-primary-special {
+    color: var(--primary-color);
+    border: 4px solid #eecee2;
+    background-color: #ffffff;
+
+}
+
+.card:hover {
+    box-shadow: 0 0 12px 4px #0c060a44;
+}
+
+.btn-primary:hover, .btn-primary-special:hover {
+    color: var(--primary-color);
+    border: 4px solid #e852ae;
+    transform: scale(1.10);
+    background-color: #ffffff;
+    /* background-color: #e852ae; */
+    /* color: #ffffff; */
+    /* border: 4px solid #ffffff; */
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+
+.btn-container{
+    position: absolute;
+    bottom: -20px; /* Adjust overlap distance */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the button */
+
+}
+
+.next-steps {
+    margin-top: 175px;
+    margin-bottom: 100px;
+}
+
+/* .book-now-button {
     background: rgb(99, 210, 255);
     background: linear-gradient(
         108deg,
@@ -21,42 +91,20 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 0.7rem;
     text-align: center;
     vertical-align: middle;
-}
-
+} 
+    
 .book-now-button:hover {
     background-color: #19325f;
     color: #ffffff;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-.book-now-button-white {
-    border: 2px solid #B6E8E9;
-    color: #19325f;
-    border-radius: 5px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.274);
-    padding: 0.75rem 2rem;
-    font-size: 0.7rem;
-    text-align: center;
-    vertical-align: middle;
-}
+*/
+
 
 .book-now-button-white:hover {
     background-color: #19325f;
     color: #ffffff;
     transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.services-text {
-    line-height: 1.5;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.card-body {
-    color: #19325F;
-}
-
-footer {
-    margin-bottom: -16px !important;
 }
 
 footer .nav-link,
