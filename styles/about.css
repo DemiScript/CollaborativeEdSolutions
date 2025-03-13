@@ -27,7 +27,7 @@ body {
     height: auto;
 }
 
-.button-blue, .button-white {
+.button-blue, .button-white,.button-transparent {
     background-color: #19325F;
     color: white;
     border: 2px solid #ffffff31;
@@ -39,6 +39,15 @@ body {
     background-clip: padding-box;
     font-size: 0.7rem;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.274);
+}
+
+.button-transparent{
+    border: 2px solid #ffffff31;
+}
+
+.button-transparent:hover {
+    background-color: var(--accent-color);
+    color:#19325F;
 }
 
 .button-blue:hover, .button-white:hover {
@@ -57,7 +66,7 @@ span {
     color: #E3AD59;
 }
 
-.circle-foster {
+.circle-foster, .circle-eager {
     width: 80px;
     height: 80px;
     background: linear-gradient(
@@ -81,6 +90,7 @@ span {
 .conference-section {
     margin: 150px 0;
 }
+
 .conference-text {
     max-width: 800px;
     margin: 0 auto;
@@ -120,10 +130,51 @@ span {
 .carousel-control-prev, .carousel-control-next {
     width: 50px;
 }
+
 .carousel-control-prev:hover, .carousel-control-next:hover {
     background-color: #E3AD59;
 }
 
+.eager-section {
+    margin-top: 150px;
+}
+
+.circle-eager {
+    width: 50px;
+    height: 50px;
+    background: #E3AD59;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonial {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+}
+
+.col-sm-12.col-md-4 {
+    position: relative; 
+}
+
+.round-square {
+    position: absolute; 
+    bottom: -10px; 
+    right: 3px; 
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff21;
+    display: flex;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .round-square {
+        display: none;
+    }
+}
 
 footer {
     background-color: #19325f00;
