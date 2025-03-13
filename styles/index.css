@@ -2,6 +2,13 @@
     background-color: #ffffff;
 }
 
+@media (min-width: 1800px) {
+    p {
+        font-size: 1.15rem;
+        line-height: 1.5;
+    }
+}
+
 .social-img img {
     transition: transform 0.3s ease-in-out;
 }
@@ -71,7 +78,8 @@
 
 .reason-row:hover {
     /* background-color: #e852ae49; */
-    box-shadow: 0 0 12px 4px #ebe6e944;
+    background-color: #ffffff0c;
+    /* box-shadow: 0 0 12px 4px #ebe6e944; */
 }
 
 .icon-container {
