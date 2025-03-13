@@ -78,17 +78,32 @@ span {
     margin: 2.5rem;
 }
 
+.conference-section {
+    margin: 150px 0;
+}
+.conference-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .testimonial-section {
     background-color: #f8f9fa; /* Light gray background */
     color: #19325F;
 }
 
 .testimonial-content {
-    max-width: 900px;
-    min-height: 300px;
+    max-width: 1150px;
+    min-height: 400px;
     margin: auto;
-    background-color: #fff;
-    border-radius: 8px;
+    display: grid;
+    grid-template-rows: 1fr auto; /* Centers <p> and places <figcaption> below */
+    height: 100%; 
+}
+
+.blockquote {
+    display: flex;
+    align-items: center; /* Vertically centers the <p> inside the blockquote */
+    text-align: center; 
 }
 
 .blockquote-footer {
@@ -96,10 +111,19 @@ span {
     color: #6c757d;
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-next-icon, .carousel-control-prev-icon {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);
+
 }
+
+.carousel-control-prev, .carousel-control-next {
+    width: 50px;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #E3AD59;
+}
+
 
 footer {
     background-color: #19325f00;
