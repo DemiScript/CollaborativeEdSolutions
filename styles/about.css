@@ -11,12 +11,26 @@ body {
 .white-bg {
     background-color: white;
     color: #19325F;
+    margin-top: 150px;
+}
+
+@media (min-width: 1800px) {
+    p {
+        font-size: 1.15rem;
+        line-height: 1.5;
+    }
+}
+
+#about-headshot{
+    width: 80%;
+    max-width: 400px;
+    height: auto;
 }
 
 .button-blue, .button-white {
     background-color: #19325F;
     color: white;
-    border: none;
+    border: 2px solid #ffffff31;
     border-radius: 50px;
     padding: 0.75rem 2rem;
     display: inline-block;
@@ -26,14 +40,10 @@ body {
     font-size: 0.7rem;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.274);
 }
-.button-blue:hover {
-    background-color: var(--tertiary-color);
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
 
-.button-white:hover {
-    background-color: var(--tertiary-color);
-    color: white;
+.button-blue:hover, .button-white:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -41,6 +51,10 @@ body {
     background-color: white;
     color: #19325F;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.274);
+}
+
+span {
+    color: #E3AD59;
 }
 
 .circle-foster {
@@ -59,8 +73,8 @@ body {
 }
 
 .circle-foster > img {
-    height: 5rem;
-    width: 5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     margin: 2.5rem;
 }
 
