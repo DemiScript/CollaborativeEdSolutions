@@ -137,16 +137,22 @@ span {
 
 .eager-section {
     margin-top: 200px;
+    margin-bottom: 150px;
 }
 
 .h5 {
     font-weight: 400;
 }
 
-.eager-content:hover {
-    background-color: #ffffff0c;
-    /* box-shadow: 0 0 12px 4px #ebe6e944; */
+.eager-content {
+    border-radius: 30px;
 }
+
+.eager-content:hover {
+    background-color: #00000009;
+    
+}
+
 .circle-eager1, .circle-eager2, .circle-eager3, .circle-eager4 {
     width: 60px;
     height: 60px;
@@ -157,6 +163,16 @@ span {
     justify-content: center;
     margin-bottom: 15px;
 }
+
+.circle-eager1 > img,
+.circle-eager2 > img,
+.circle-eager3 > img,
+.circle-eager4 > img {
+    height: 2rem;
+    width: 2rem;
+    margin: 2rem;
+}
+
 
 .circle-eager2 {
     background: #fe2736;
