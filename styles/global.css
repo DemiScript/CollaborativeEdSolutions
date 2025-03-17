@@ -23,6 +23,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    padding-top: 40px;
     overflow-x: clip;
     width: 100%;
     font-size: 20px;
@@ -48,11 +49,15 @@ body {
 }
 
 .navbar {
+    top: 0;
+    z-index: 999;
+    position: fixed;
     width: 100%;
     background-color: var(--primary-color);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: auto;
 }
+
 
 .navbar a {
     color: #19325F;
