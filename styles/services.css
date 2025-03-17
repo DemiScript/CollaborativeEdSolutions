@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6, p {
     border: 1px solid #ffffff;
     /* color: #ffffff; */
 }
+
 .card-title {
     font-size: 1.25rem;
     font-weight: semibold;
@@ -53,8 +54,6 @@ h1, h2, h3, h4, h5, h6, p {
     }
 }
 
-
-
 .btn-primary, .btn-primary-special {
     color: var(--primary-color);
     border: 4px solid #eecee2;
@@ -71,49 +70,19 @@ h1, h2, h3, h4, h5, h6, p {
     border: 4px solid #e852ae;
     transform: scale(1.10);
     background-color: #ffffff;
-    /* background-color: #e852ae; */
-    /* color: #ffffff; */
-    /* border: 4px solid #ffffff; */
-    /* transition: background-color 0.3s ease, color 0.3s ease; */
 }
 
 .btn-container{
     position: absolute;
-    bottom: -20px; /* Adjust overlap distance */
+    bottom: -20px;
     left: 50%;
-    transform: translateX(-50%); /* Centers the button */
-
+    transform: translateX(-50%);
 }
 
 .next-steps {
     margin-top: 175px;
     margin-bottom: 100px;
 }
-
-/* .book-now-button {
-    background: rgb(99, 210, 255);
-    background: linear-gradient(
-        108deg,
-        rgba(99, 210, 255, 0.542454481792717) 13%,
-        rgba(20, 58, 122, 0.408) 100%
-    );
-    border: none;
-    color: #19325f;
-    border-radius: 5px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.274);
-    padding: 0.75rem 2rem;
-    font-size: 0.7rem;
-    text-align: center;
-    vertical-align: middle;
-} 
-    
-.book-now-button:hover {
-    background-color: #19325f;
-    color: #ffffff;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-*/
-
 
 .book-now-button-white:hover {
     background-color: #19325f;
@@ -126,15 +95,3 @@ footer .text-muted a,
 footer .mb-0 {
     color: #19325f !important;
 }
-
-/* 
-.bar {
-    height: 6rem;
-    width: 1rem;
-    max-width: 0.3rem;
-    background-color: #b6e8e9;
-    display: inline-block;
-    margin-right: 15px;
-    vertical-align: top;
-    border-radius: 5px;
-} */

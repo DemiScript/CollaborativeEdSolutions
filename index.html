@@ -36,30 +36,32 @@
 
 <body class="homepage">
     <header>
-        <nav class="navbar navbar-expand-sm sticky-top">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/blue-logo-transparent.png" alt="CollaborativeEd Solutions" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/contact.html">Contact</a>
-                    </li>
-                </ul>
+        <nav class="navbar sticky-top navbar-expand-md bg-body-light shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo" src="/images/blue-logo-transparent.png" alt="CollaborativeEd Solutions" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -118,14 +120,14 @@
                         </div>
                         
                         <div class="d-grid gap-3 mt-sm-3 pb-4">
-                            <a class="btn btn-lg btn-accent text-nowrap small-caps" href="pages/about.html" role="button">Pre-Order on Solutionstree.com</a>
-                            <a class="btn btn-lg btn-accent text-nowrap small-caps" href="pages/contact.html" role="button">Pre-Order on Amazon.com</a>
+                            <a class="btn btn-lg btn-accent text-nowrap small-caps" href="https://www.solutiontree.com/leading-special-education.html" role="button">Pre-Order on Solutionstree.com</a>
+                            <!-- <a class="btn btn-lg btn-accent text-nowrap small-caps" href="pages/contact.html" role="button">Pre-Order on Amazon.com</a> -->
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 text-start">
                         <h2 class="h4 mb-0">Leading Special Education</h2>
                         <p class="subheading">How to Support, Retain, and Empower Teachers for Success</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor libero vitae enim vulputate auctor vel nec augue. Proin a mattis ante, et viverra sapien. Donec tempus feugiat elementum. Quisque viverra nisi eu rhoncus vestibulum. Maecenas rhoncus tristique dui eu dictum. </p>
+                        <p>This book is designed for K–12 school leaders in various settings. Discover strategies to support special education teachers and manage successful special education programs. Focus areas include highlighting the power of connections, professional learning, collaboration, co-teaching, and leveraging technology for special education success.</p>
                         <div>
                             <h3 class="h6 mt-md-5">Topics</h6>
                             <ul>
@@ -192,8 +194,8 @@
                 </div>
             </div>
         </section>
-        <section class="gallery-section">
-            <div class="container text-center py-5" id="#gallery">
+        <section class="gallery-section" id="#gallery">
+            <div class="container text-center py-5">
                 <h5 class="h1">Our Work</h5>
                 <p> Click an image to learn more.</p>
                 <div class="row g-4 justify-content-center mt-5">
@@ -273,6 +275,16 @@
             </small>
         </div>      
     </footer>
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            if (sessionStorage.getItem('scrollToGallery') === 'true') {
+                const gallerySection = document.getElementById('gallery');
+                if (gallerySection) {
+                    gallerySection.scrollIntoView({ behavior: 'smooth' });
+                }
+                sessionStorage.removeItem('scrollToGallery');
+            }
+        });
+    </script>
 </body>
-
 </html>
