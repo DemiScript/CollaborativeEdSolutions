@@ -275,16 +275,5 @@
             </small>
         </div>      
     </footer>
-    <script>
-        window.addEventListener('DOMContentLoaded', function() {
-            if (sessionStorage.getItem('scrollToGallery') === 'true') {
-                const gallerySection = document.getElementById('gallery');
-                if (gallerySection) {
-                    gallerySection.scrollIntoView({ behavior: 'smooth' });
-                }
-                sessionStorage.removeItem('scrollToGallery');
-            }
-        });
-    </script>
 </body>
 </html>
