@@ -1,236 +1,131 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@import url(global.css);
 
-html,
-body {
-    font-size: 16px;
-    font-family: EB Garamond, Arial, sans-serif;
-    /*63D2FF, 19325F*/
-    background-repeat: no-repeat;
-    background: rgb(25,50,95);
-    background: linear-gradient(180deg, 
-    rgba(25,50,95,0.7203256302521008) -3871%, rgba(107,168,159,0.6839110644257703) -1732%, rgba(25,50,95,0.7399334733893557) -136%, rgba(25,50,95,0.7399334733893557) 8%, rgba(3,71,126,0.865983893557423) 50%, 
-    rgba(25,50,95,1) 94%);
-}
-
-.cursor-index {
-    cursor: default;
-}
-
-.white-bg {
-     background-color: #ffffff;
-}
-
-img.logo {
-     height: 57px;
-}
 .navbar {
-    width: 100%;
     background-color: #ffffff;
-    overflow: auto;
-}
-.shadow {
-     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.navbar a {
-    padding: 12px;
-    color: #19325f;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 22px;
-    text-transform: lowercase;
 }
 
-.navbar a:hover,
-.navbar a.active,
-.navbar a.active:hover {
-    color: #63d2ff !important;
+.social-img img {
+    transition: transform 0.3s ease-in-out;
 }
 
-.top-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: top;
-    background-size: cover;
+.social-img img:hover {
+    transform: scale(1.2);
+}
+
+#homepage-headshot{
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+}
+
+.book-section {
+    background: rgba(21, 20, 20, 0.25); /* Darker than the page bg */
+    border-radius: 5rem;
+    max-width: 1920px;
+}
+
+.book-cover {
+    max-width: 70%; 
+    height: auto;
+}
+
+@media (min-width: 992px) { 
+    .book-cover {
+        max-width: 50%;
+    }
 }
 
 .img-container {
-    height: 25rem;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-}
-
-#mission-section {
-    height: 100%;
-    top: 3rem;
-    background-color: white;
-    padding-bottom: 3rem;
-}
-
-#mission-section h1,
-#mission-section p {
-    color: #19325f;
-}
-.img-mission-container {
-    width: 75%;
-    max-width: 400px;
-}
-
-.btn-primary {
-    color: white;
-    background-color: #19325f;
-    border-color: #ffffff;
-    min-width: 10rem;
-}
-
-.btn-secondary {
-    color: #19325f;
-    background-color: #ffffff;
-    border-color: #19325f;
-    min-width: 10rem;
-}
-.btn-tertiary {
-    color: #ffffff;
-    background-color: #6ba89f;
-}
-
-.btn-primary:hover {
-    background-color: #ffffff;
-    color: #19325f;
-}
-
-.btn-secondary:hover {
-    background-color: #19325f;
-    color: #ffffff;
-    border-color: #ffffff;
-}
-
-.btn-tertiary:hover {
-    background-color: #ffffff;
-    color: #19325f;
-}
-
-.text-btn {
-    font-weight: 500;
-    letter-spacing: 0.05em;
-    width: 10rem;
-}
-.display-6{
-    color:#ffffff;
-}
-.vertical-bar {
-    width: 10px;
-    height: 80px;
-    background-color: #b6e8e9;
-    display: inline-block;
-    margin-right: 15px;
-    vertical-align: middle;
-    border-radius: 5px;
-}
-.circle {
-    background-color: #19325f;
-    border-radius: 50%;
-    display: auto;
-}
-
-.circle > img {
-    height: 5rem;
-    width: 5rem;
-    margin: 2.5rem;
-}
-
-.filter-light-green {
-    filter: invert(100%) sepia(6%) saturate(5595%) hue-rotate(97deg) brightness(90%) contrast(91%);
-}
-
-.filter-white {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
-    contrast(103%);
-}
-
-.learn-more {
-    color:#c4e4dfe0;
-}
-
-#testimonials-carousel {
     height: 30rem;
-    background: #ffffffd1;
-    max-width: 100%;
+    max-width: 1920px;
+    position: relative;
+    overflow: hidden; 
+    background-position: center;
 }
 
-.carousel-caption {
-    position: initial;
-    padding: 4rem 4rem;
-    color: rgba(0, 0, 0, 0.856);
-    text-align: center;
-    font-style: italic;
+.about-image {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center top;
 }
 
-@media (max-width: 767px) {
-  .carousel-caption {
-    position: initial;
-    padding: 3rem 2rem;
-    color: rgba(0, 0, 0, 0.856);
-    text-align: center;
-    font-size: 0.7rem;
-    font-style: italic;
-    margin: auto;
-    overflow-y: auto;
-    max-height: 480px;
-  }
+.reason-section {
+    display: flex;
+    justify-content: center;
 }
 
-#prev {
-    justify-content: flex-start;
-    filter: invert(100%);
+.reason-container {
+    max-width: 1000px; /* Reduced width for less horizontal space */
+    width: 90%; 
 }
 
-#next {
-    justify-content: flex-end;
-    filter: invert(100%);
+.reason-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 9999px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    transition: none;
-    opacity: unset;
+.reason-row:hover {
+    /* background-color: #e852ae49; */
+    background-color: #ffffff05;
+    /* box-shadow: 0 0 12px 4px #ebe6e944; */
 }
 
-.circle-foster {
-    height: 5rem;
-    width: 5rem;
-    background: rgb(252, 252, 252);
-    background: linear-gradient(
-        156deg,
-        rgba(252, 252, 252, 1) 0%,
-        rgba(99, 210, 255, 1) 53%,
-        rgba(0, 212, 255, 1) 100%
-    );
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    display: auto;
+    box-shadow: 0 0 12px 4px #e852ae;
+    flex-shrink: 0;
 }
 
-.circle-foster > img {
-    height: 2.5rem;
-    width: 2.5rem;
-    margin: 1.25rem;
+.icon-size {
+    width: 30px;
+    height: 30px;
 }
 
-footer {
-    bottom: 0;
+.reason-content h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.reason-content p {
+    margin: 0.5rem 0 0;
+}
+.gallery-item {
+    position: relative;
     width: 100%;
-    background-color: #19325f;
+    padding-top: 100%;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 500px) {
-    .navbar a {
-        float: none;
-        display: block;
-    }
+.gallery-item img {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.collapse {
+    margin-top: 10px;
+    text-align: center;
 }

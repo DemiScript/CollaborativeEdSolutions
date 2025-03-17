@@ -1,92 +1,222 @@
-html,
+@import url(global.css);
+
 body {
-    min-height: 100vh;
-    background: #19325f;
-    display: flex;
-    flex-direction: column;
+    background: linear-gradient(180deg, rgba(186, 205, 240, 0.72) -3871%, rgba(147, 216, 206, 0.684) -1732%, rgba(108, 151, 231, 0.74) -136%, rgba(25, 50, 95, 0.7399334733893557) 8%, rgba(3, 71, 126, 0.865983893557423) 50%, rgb(44, 82, 153) 94%);
 }
+
 .navbar {
-    background-color: #19325f;
+    background-color: #ffffff;
 }
 
-.navbar a {
-    color: white;
-}
-
-.cursor-about {
-    cursor: default;
-}
-
-.carousel-item-1 {
-    height: 32rem;
-    background: black;
-    color: white;
-    position: relative;
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.container-text {
-    position: relative;
-    background-color: #19325f89;
-}
-.overlay-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: top;
-    background-size: cover;
-}
-
-.about-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: top;
-    background-size: cover;
-}
-
-.line-divider {
-    width: 10vh;
-    height: 5px;
-    background-color: #b6e8e9;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-.card {
-    box-shadow: 0px 7px 15px rgba(247, 246, 246, 0.269);
-    border-radius: 10px;
-    border-width: 0px;
-}
-
-.card-header{
-    color: white;
-    background-color: #19325F;
-}
-.card-body {
+.white-bg {
+    background-color: white;
     color: #19325F;
-} 
+    margin-top: 150px;
+}
 
-.img-thumbnail {
-    width: 15vh;
+@media (min-width: 1800px) {
+    p {
+        font-size: 1.15rem;
+        line-height: 1.5;
+    }
+}
+
+#about-headshot{
+    max-width: 360px;
     height: auto;
 }
 
-footer {
-    bottom: 0;
-    width: 100%;
-    background-color: white !important;
-    color: #19325f !important;
-    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.025); 
+.button-blue, .button-white,.button-transparent {
+    background-color: #19325F;
+    color: white;
+    border: 2px solid #ffffff31;
+    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    background-clip: padding-box;
+    font-size: 0.7rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.274);
 }
 
-footer .nav-link,
-footer .text-muted a,
-footer .mb-0 {
-    color: #19325f !important;
+.button-transparent{
+    border: 3px solid #ffffff31;
+    background-color: transparent;
+}
+
+.button-transparent:hover {
+    background-color: var(--accent-color);
+    color:#19325F;
+}
+
+.button-blue:hover, .button-white:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-white {
+    background-color: white;
+    color: #19325F;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.274);
+}
+
+span {
+    color: #E3AD59;
+}
+
+.circle-foster, .circle-eager {
+    width: 80px;
+    height: 80px;
+    background: #E3AD59;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-foster > img {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 2.5rem;
+}
+
+.circle-foster img:hover {
+    transform: scale(1.2);
+}
+
+.conference-section {
+    margin: 150px 0;
+}
+
+.conference-text {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.testimonial-section {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #19325F;
+}
+
+.testimonial-content {
+    max-width: 1150px;
+    min-height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr auto; /* Centers <p> and places <figcaption> below */
+    height: 100%; 
+}
+
+.blockquote {
+    display: flex;
+    align-items: center; /* Vertically centers the <p> inside the blockquote */
+    text-align: center; 
+}
+
+.blockquote-footer {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 50px;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #E3AD59;
+}
+
+.eager-section {
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.h5 {
+    font-weight: 400;
+}
+
+.eager-content {
+    border-radius: 30px;
+}
+
+.eager-content:hover {
+    background-color: #00000009;
+    
+}
+
+.circle-eager1, .circle-eager2, .circle-eager3, .circle-eager4 {
+    width: 60px;
+    height: 60px;
+    background: #1d3561;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.circle-eager1 > img,
+.circle-eager2 > img,
+.circle-eager3 > img,
+.circle-eager4 > img {
+    height: 2rem;
+    width: 2rem;
+    margin: 2rem;
+}
+
+
+.circle-eager2 {
+    background: #fe2736;
+}
+
+.circle-eager3 {
+    background: #e853ae;
+}
+
+.circle-eager4 {
+    background: #82b66c;
+}
+
+#testimonial {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+}
+
+.col-sm-12.col-md-4 {
+    position: relative; 
+}
+
+.round-square {
+    position: absolute; 
+    bottom: -10px; 
+    right: 3px; 
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff21;
+    display: flex;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .round-square {
+        display: none;
+    }
+}
+
+footer {
+    background-color: #19325f00;
+}
+
+.text-footer {
+    color: #ffffff;
+    text-align: right;
 }
