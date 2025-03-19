@@ -25,13 +25,13 @@
 }
 
 .book-cover {
-    max-width: 70%; 
+    max-width: 80%; 
     height: auto;
 }
 
-@media (min-width: 992px) { 
-    .book-cover {
-        max-width: 50%;
+@media (max-width: 800px) {
+    .book-section {
+        border-radius: 0;
     }
 }
 
@@ -48,6 +48,13 @@
     inset: 0;
     background-size: cover;
     background-position: center top;
+}
+
+.external-link-icon {
+    width: 15px;
+    vertical-align: top;
+    height: auto;
+    opacity: 0.7;
 }
 
 .reason-section {
@@ -72,9 +79,7 @@
 }
 
 .reason-row:hover {
-    /* background-color: #e852ae49; */
     background-color: #ffffff05;
-    /* box-shadow: 0 0 12px 4px #ebe6e944; */
 }
 
 @media (max-width: 550px) { 
@@ -127,17 +132,7 @@
     transition: transform 0.3s ease-in-out;
 }
 
-/* @media (max-width: 550px) { 
-    .gallery-item img {
-        width: 90%;
-    }
-} */
-
 .gallery-item:hover img {
     transform: scale(1.1);
 }
 
-.collapse {
-    margin-top: 10px;
-    text-align: center;
-}

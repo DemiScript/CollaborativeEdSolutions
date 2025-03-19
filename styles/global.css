@@ -84,6 +84,14 @@ body {
     }
 }
 
+.navbar-toggler-icon {
+    filter: brightness(0) saturate(100%) invert(13%) sepia(31%) saturate(3814%) hue-rotate(203deg) brightness(93%) contrast(86%);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
 @media (min-width: 1800px) {
     p {
         font-size: 1.15rem;
