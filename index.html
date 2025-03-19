@@ -36,7 +36,7 @@
 
 <body class="homepage">
     <header>
-        <nav class="navbar  navbar-expand-md bg-body-light shadow">
+        <nav class="navbar navbar-expand-md bg-body-light shadow">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img class="logo" src="/images/blue-logo-transparent.png" alt="CollaborativeEd Solutions" />
@@ -95,14 +95,13 @@
                         <figure>
                             <img class="mx-auto d-block rounded-4 figure-img" src="images/pink-headshot.jpeg" id="homepage-headshot" alt="Photo of Dr. Breauna C Wall" />
                             <figcaption class="figure-caption text-light">
-                                <a class="social-img mx-2 text-decoration-none" href="https://www.linkedin.com/in/breauna-c-wall-edd">
+                                <a class="social-img mx-2 text-decoration-none" target="_blank" href="https://www.linkedin.com/in/breauna-c-wall-edd">
                                     <img src="/images/linkedin-in.svg" alt="placeholder" class="filter-white rounded-2" />
                                 </a>   
-                                <a class="social-img mx-2 text-decoration-none" href="#">
+                                <a class="social-img mx-2 text-decoration-none" target="_blank" href="https://www.instagram.com/solutionswithbre?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                                     <img src="/images/instagram.svg" alt="placeholder" class="filter-white rounded-2" />
                                 </a>
-                                <a class="social-img mx-2 text-decoration-none" href="https://www.instagram.com/solutionswithbre?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                                target="_blank">
+                                <a class="social-img mx-2 text-decoration-none" href="/pages/contact.html">
                                     <img src="/images/email-icon.svg" alt="placeholder" class="filter-white rounded-2" />
                                 </a>
                             </figcaption>
@@ -112,17 +111,26 @@
             </div>
         </div>
         <section class="container-fluid book-section">
-            <div class="container rounded p-5">
+            <div class="container p-3 p-md-5">
                 <div class="row align-items-center">
                     <div class="col-sm-12 col-md-6 text-center">
-                        <div class="pb-2">
+                        <div class="py-3">
                             <img src="images/LSE_Cover.jpg" alt="Book Cover" class="img-fluid book-cover">
                         </div>
-                        
                         <div class="d-grid gap-3 mt-sm-3 pb-4">
-                            <a class="btn btn-accent small-caps" href="https://www.solutiontree.com/leading-special-education.html" role="button">Pre-Order on Solutionstree.com</a>
-                            <!-- <a class="btn btn-lg btn-accent text-nowrap small-caps" href="pages/contact.html" role="button">Pre-Order on Amazon.com</a> -->
+                            <a class="btn btn-accent small-caps text-bottom" 
+                               href="https://www.solutiontree.com/leading-special-education.html" 
+                               role="button" 
+                               target="_blank" 
+                               rel="noopener noreferrer">
+                                Pre-Order on Solutionstree.com
+                                <img src="../images/external-link.svg" alt="External link icon" class="external-link-icon filter-white">
+                            </a>
                         </div>
+                        <!-- <div class="d-grid gap-3 mt-sm-3 pb-4">
+                            <a class="btn btn-accent small-caps" href="https://www.solutiontree.com/leading-special-education.html" role="button">Pre-Order on Solutionstree.com</a>
+                             <a class="btn btn-lg btn-accent text-nowrap small-caps" href="pages/contact.html" role="button">Pre-Order on Amazon.com</a> 
+                        </div> -->
                     </div>
                     <div class="col-sm-12 col-md-6 text-start">
                         <h2 class="h4 mb-0">Leading Special Education</h2>
@@ -152,48 +160,56 @@
         </div>
         <section class="pt-5">
             <div class="container text-center">
-                <h3 class="h1 mb-0">Commitment to Special Education</h3>
-                <p class="lead fst-italic mb-md-5 px-1">Empowering school leaders and bridging the gap between general and special education is not just a profession; it's a passion.</p>
-                <div class="mx-auto text-start fw-medium px-1" style="max-width: 800px;">
-                    <p> Dr. Wall stands at the forefront of facilitating transformative professional learning experiences. 
-                        Specializing in <span class="color-tertiary">empowering</span> school leaders to enhance supervision of special education programs and staff, she is deeply committed to improving culture, communication, staff satisfaction, and educational outcomes. </p>
-                    <p> Our work significantly focuses on bridging the divide between general and special education departments, equipping general education teachers and staff with the necessary skills and understanding to foster an <span class="color-tertiary">inclusive</span> learning environment.</p>
+                <h3 class="h1 mb-2">Commitment to <span class="color-tertiary">Special Education</span></h3>
+                <p class="fst-italic mb-4 subheading">Empowering school leaders and bridging the gap between general and special education is not just a profession; it's a passion.</p>
+                <div class="mx-auto px-3" style="max-width: 1000px;">
+                    <p class="lh-sm fs-6"> Dr. Wall stands at the forefront of facilitating transformative professional learning experiences.
+                        Specializing in empowering school leaders to enhance supervision of special education programs and staff, she is deeply committed to <span class="color-tertiary">improving culture, communication, staff satisfaction, and educational outcomes.</span></p>
+                    <p class="lh-m fs-6"> Our work significantly focuses on bridging the divide between general and special education departments, equipping general education teachers and staff with the necessary skills and understanding to foster an inclusive learning environment.</p>
                 </div>
             </div>
         </section>
-        <section class="reason-section">
-            <div class="reason-container">
+        <section class="container reason-section mt-3 mt-md-5">
+            <div class="px-4">
+                <p class="subheading mb-0">
+                    Discover the key reasons why our approach stands out and how we deliver exceptional results:
+                </p>
                 <div class="reason-row">
-                    <a class="icon-container ms-2 text-decoration-none" href="#">
-                        <img src="/images/checkmark.svg" alt="Checkmark Icon" class="filter-white icon-size" />
+                    <a class="icon-container ms-2 text-decoration-none">
+                        <img src="/images/checkmark.svg" alt="Checkmark Icon" class="filter-pink icon-size" />
                     </a>
                     <div class="reason-content">
                         <h4 class="h5">Successful Track Record</h4>
-                        <p>Developed special education programs across 20 schools. Gained invaluable insights into the challenges and triumphs of creating effective educational strategies.</p>
+                        <p class="lh-sm">Developed special education programs across numerous schools. Gaining invaluable insights into the challenges and triumphs of creating effective educational strategies.</p>
                     </div>
                 </div>
-        
+                
                 <div class="reason-row">
-                    <a class="icon-container ms-2 text-decoration-none" href="#">
-                        <img src="/images/checkmark.svg" alt="Checkmark Icon" class="filter-white icon-size" />
+                    <a class="icon-container ms-2 text-decoration-none">
+                        <img src="/images/checkmark.svg" alt="Checkmark Icon" class="filter-pink icon-size" />
                     </a>
                     <div class="reason-content">
                         <h4 class="h5">Strong Academic Background</h4>
-                        <p>Our expertise is backed by research, special education credentials, and advanced graduate studies.</p>
+                        <p class="lh-sm">Our expertise is backed by research, special education credentials, and advanced graduate studies.</p>
                     </div>
                 </div>
-        
+                
                 <div class="reason-row">
-                    <a class="icon-container ms-2 text-decoration-none" href="#">
-                        <img src="/images/checkmark.svg" alt="Checkmark Icon" class="filter-white icon-size" />
+                    <a class="icon-container ms-2 text-decoration-none">
+                        <img src="/images/checkmark.svg" alt="Checkmark Icon" class="filter-pink icon-size" />
                     </a>
                     <div class="reason-content">
                         <h4 class="h5">Impactful Learning Initiatives</h4>
-                        <p>Dr. Wall's blend of practical experience, scholarly pursuit, and dedication to excellence in education enables us to provide life-changing solutions.</p>
+                        <p class="lh-sm">Dr. Wall's blend of practical experience, scholarly pursuit, and dedication to excellence in education enables us to provide life-changing solutions.</p>
                     </div>
                 </div>
+                
             </div>
+            
         </section>
+
+
+        <!-- Gallery -->
         <section class="gallery-section" id="#gallery">
             <div class="container text-center py-5">
                 <h5 class="h1">Our Work</h5>

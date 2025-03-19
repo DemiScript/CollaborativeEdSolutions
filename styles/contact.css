@@ -9,6 +9,16 @@
     width: 2rem;
 }
 
+.contact-text {
+    font-size: 1.25rem;
+}
+
+@media (max-width: 450px) {
+    .contact-text {
+        font-size: 0.95rem;
+    }
+}
+
 .contact-form {
     background-color: #00000031;
     border-radius: 1rem;
