@@ -9,7 +9,7 @@
 
     --accent-color: #edb877;
 
-    --text-color: #ffffff;
+    --text-color: #e9e5e5;
     --font-family: 'EB Garamond', Arial, sans-serif;
 }
 
@@ -115,17 +115,18 @@ body {
 }
 
 .btn-primary:hover, .btn-secondary:hover , .btn-tertiary:hover, .btn-accent:hover {
-    background-color: rgba(241, 237, 237, 0.062);
-    border-color: var(--primary-color);
+  background-color: rgba(241, 237, 237, 0.062);
+  border-color: var(--primary-color);
+  transform: scale(1.10);
 }
 
 .btn-primary:hover {
-    border: 3px solid var(--tertiary-color);
+  border: 3px solid var(--tertiary-color);
 }
 
 .btn-accent:hover {
-    border: 3px solid var(--accent-color);
-    border-color: #edb877b4;
+  border: 3px solid var(--accent-color);
+  border-color: #edb877b4;
 }
 
 footer {
